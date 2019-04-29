@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-"test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chat": "^0.6.0",
+    "chai": "^4.2.0",
     "mocha": "^6.1.4"
   }
 }
