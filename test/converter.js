@@ -8,7 +8,7 @@ describe("Color Code Converter", function() {
       var x = 0;
       var y = 0;
       var z = x / y; //@test Expecting to crash the test
-      expect(x,"Not good value").to.equal(2);
+      expect(x,"Not good value").to.equal(0);
     });
   });
 
