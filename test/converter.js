@@ -15,8 +15,9 @@ describe("Dummy Test", function () {
 
       require('dotenv').config();
       var tstVar = process.env.MYVAR;
+      console.log(tstVar);
 
-      expect(tstVar,"Invalid environment variable").to.equal(2);
+      expect(tstVar, "Invalid environment variable").to.equal('2');
     });
   });
 
